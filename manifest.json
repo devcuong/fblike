@@ -1,9 +1,9 @@
 {
-    "name": "GetTruyen",
+    "name": "InputTruyen",
     "version": "1.0",
     "manifest_version": 2,
-
-    "description": "Công cụ đành cho việc get truyện",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "description": "Công cụ đành cho việc input truyện",
     "icons": {
         "16": "icon.png",
         "48": "icon.png",

@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        .input-btn {
+        .input-btn,
+        .copy-btn {
             background-color: #1e90ff;
             color: white;
             border: none;
@@ -16,7 +17,9 @@
 </head>
 
 <body style="width: 200px;">
-    <p style="font-size: 14px; text-align: center;" id="txt">Tìm thấy <span id="all_link">x</span></p>
+    <p class="" id="all_link"></p>
+    <p style="font-size: 14px; text-align: center;" id="txt"></p>
+    <button class="copy-btn" id="copy-btn">copy truyện ngay và luôn</button>
     <button class="input-btn" id="input-btn">Nhập truyện ngay và luôn</button>
 </body>
 <script src="js/jquery.min.js"></script>
